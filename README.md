@@ -26,17 +26,18 @@ This repo provides hands-on implementations of CRL methods and experiments to be
 ---
 
 ## 📂 Repo Structure
+```bash
 continual-rl-experiments/
-│── crl/ # Core algorithms and utils
-│ ├── dqn.py
-│ ├── policy_grad.py
-│ ├── ewc.py
-│ ├── replay.py
-│── experiments/ # Jupyter notebooks + scripts
-│ ├── cartpole_mountaincar.ipynb
-│ ├── latent_transfer.ipynb
-│── results/ # Logs, plots, saved models
-│── README.md
+├── experiments/
+│   ├── cartpole_mountaincar.py   # Baseline: sequential training (DQN)
+│   └── ewc.py                    # Elastic Weight Consolidation (WIP)
+│
+├── docs/
+│   └── example_plot.png          # Example learning curve
+│
+├── README.md                     # Project overview
+├── requirements.txt              # Dependencies
+└── .gitignore
 
 ---
 ## 🚀 Usage
