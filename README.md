@@ -38,6 +38,7 @@ continual-rl-experiments/
 ├── README.md                     # Project overview
 ├── requirements.txt              # Dependencies
 └── .gitignore
+```
 
 ---
 ## 🚀 Usage
@@ -52,3 +53,4 @@ pip install -r requirements.txt
 
 # Run the baseline experiments
 python experiments/cartpole_mountaincar.py --method baseline
+```
