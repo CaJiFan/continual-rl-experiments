@@ -26,3 +26,28 @@ This repo provides hands-on implementations of CRL methods and experiments to be
 ---
 
 ## 📂 Repo Structure
+continual-rl-experiments/
+│── crl/ # Core algorithms and utils
+│ ├── dqn.py
+│ ├── policy_grad.py
+│ ├── ewc.py
+│ ├── replay.py
+│── experiments/ # Jupyter notebooks + scripts
+│ ├── cartpole_mountaincar.ipynb
+│ ├── latent_transfer.ipynb
+│── results/ # Logs, plots, saved models
+│── README.md
+
+---
+## 🚀 Usage
+```bash
+# Clone the repo
+git clone https://github.com/YOURUSERNAME/continual-rl-experiments.git
+cd continual-rl-experiments
+
+# Install dependencies
+pip install -r requirements.txt
+
+
+# Run the baseline experiments
+python experiments/cartpole_mountaincar.py --method baseline
