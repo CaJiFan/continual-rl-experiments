@@ -44,7 +44,7 @@ continual-rl-experiments/
 ## 🚀 Usage
 ```bash
 # Clone the repo
-git clone https://github.com/YOURUSERNAME/continual-rl-experiments.git
+git clone https://github.com/cajifan/continual-rl-experiments.git
 cd continual-rl-experiments
 
 # Install dependencies
