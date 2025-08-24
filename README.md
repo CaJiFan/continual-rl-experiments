@@ -28,16 +28,23 @@ This repo provides hands-on implementations of CRL methods and experiments to be
 ## 📂 Repo Structure
 ```bash
 continual-rl-experiments/
-├── experiments/
-│   ├── cartpole_mountaincar.py   # Baseline: sequential training (DQN)
-│   └── ewc.py                    # Elastic Weight Consolidation (WIP)
-│
-├── docs/
-│   └── example_plot.png          # Example learning curve
-│
-├── README.md                     # Project overview
-├── requirements.txt              # Dependencies
-└── .gitignore
+├── agents
+│   ├── continual_dqn.py
+│   └── dqn.py
+├── docs
+├── experiments
+│   ├── run_acrobot.py
+│   ├── run_all.py
+│   ├── run_cartpole.py
+│   └── run_mountaincar.py
+├── models
+│   ├── latent.py
+│   └── networks.py
+├── README.md
+├── requirements.txt
+└── utils
+    ├── evaluation.py
+    └── replay_buffer.py
 ```
 
 ---

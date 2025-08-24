@@ -1,0 +1,11 @@
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3 
+*.h5
+*.ckpt
+*.pt
+
