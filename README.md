@@ -59,5 +59,5 @@ pip install -r requirements.txt
 
 
 # Run the baseline experiments
-python experiments/cartpole_mountaincar.py --method baseline
+python experiments/run_mountaincar.py --method baseline
 ```
